@@ -35,7 +35,7 @@ class SmsCodeView @JvmOverloads constructor(context: Context, attrs: AttributeSe
     private var mCurrentFocusPosition = 0//当前聚焦的位置
     private var mLastFocusPosition = 0//上个聚焦的位置
 
-    private val mCount = 4  //et的数量
+    private val mCount = 6  //et的数量
 
     var inputCompletedListener: ((text: String) -> Unit)? = null //输入完成回调
 
